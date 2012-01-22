@@ -1,0 +1,11 @@
+FreeNet File Index system
+
+What this Include:
+FNFI01.dtd	: Index file DTD file.
+fn_up.php	: Uploader.
+
+*Usage*
+
+fn_up.php <filepath> <description> -- Make index and Upload to FN
+RETURN: uploaded file key and index key.
+

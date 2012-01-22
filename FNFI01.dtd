@@ -1,0 +1,12 @@
+<!DOCTYPE FNFI[
+	<!ELEMENT FNFI (file)>
+	<!ELEMENT file (title,date,desc,size?,filetype?,hash?)>
+	<!ATTLIST file key ID #REQUIRED>
+	<!ELEMENT title (#PCDATA)>
+	<!ELEMENT date (#PCDATA)>
+	<!ELEMENT desc (#PCDATA)>
+	<!ELEMENT size (#PCDATA)>
+	<!ELEMENT filetype (#PCDATA)>
+	<!ELEMENT hash (#PCDATA)>
+	<!ATTLIST hash hashtype PCDATA #REQUIRED>
+]>
